@@ -1,0 +1,15 @@
+MODULES_MANAGER_V3
+django03_render.__init__|C:\SK_DJANGO2\eclipse\workspace\django03_render\django03_render\__init__.py
+django03_render.asgi|C:\SK_DJANGO2\eclipse\workspace\django03_render\django03_render\asgi.py
+django03_render.settings|C:\SK_DJANGO2\eclipse\workspace\django03_render\django03_render\settings.py
+django03_render.urls|C:\SK_DJANGO2\eclipse\workspace\django03_render\django03_render\urls.py
+django03_render.wsgi|C:\SK_DJANGO2\eclipse\workspace\django03_render\django03_render\wsgi.py
+manage|C:\SK_DJANGO2\eclipse\workspace\django03_render\manage.py
+myapp.__init__|C:\SK_DJANGO2\eclipse\workspace\django03_render\myapp\__init__.py
+myapp.admin|C:\SK_DJANGO2\eclipse\workspace\django03_render\myapp\admin.py
+myapp.apps|C:\SK_DJANGO2\eclipse\workspace\django03_render\myapp\apps.py
+myapp.migrations.__init__|C:\SK_DJANGO2\eclipse\workspace\django03_render\myapp\migrations\__init__.py
+myapp.models|C:\SK_DJANGO2\eclipse\workspace\django03_render\myapp\models.py
+myapp.tests|C:\SK_DJANGO2\eclipse\workspace\django03_render\myapp\tests.py
+myapp.urls|C:\SK_DJANGO2\eclipse\workspace\django03_render\myapp\urls.py
+myapp.views|C:\SK_DJANGO2\eclipse\workspace\django03_render\myapp\views.py

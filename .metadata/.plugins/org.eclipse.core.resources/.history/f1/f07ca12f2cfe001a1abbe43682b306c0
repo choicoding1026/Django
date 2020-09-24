@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>member form</h1>
+<form action="/main/memberInfo" method="get">
+이름:<input type="text" name="memberName" >
+주민번호:<input type="text" name="memberIdn" >
+취미:<br>
+<input type="checkbox" name="hobby" value="야구"><br>
+<input type="checkbox" name="hobby" value="농구"><br>
+<input type="checkbox" name="hobby" value="축구"><br>
+결혼:<br>
+<input type="radio" name="married" value="미혼"><br>
+<input type="radio" name="married" value="기혼"><br>
+<input type="submit" value="가입">
+</form>
+</body>
+</html>

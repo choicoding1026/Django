@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>
+{% block title %}
+base_template.html
+{% endblock %}</title>
+</head>
+<body>
+{% block h1 %}
+template example
+{% endblock %}
+</h1>
+{% block content %}
+{% endblock %}
+</body>
+</html>

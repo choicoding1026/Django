@@ -1,0 +1,24 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\SK_DJANGO2\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\moduleTest\com.python.pydev.analysis\v2_indexcache
+one.__init__|1600820256582000000|C:\SK_DJANGO2\eclipse\workspace\moduleTest\one\__init__.py
+two.theOther|1600823596923000000|C:\SK_DJANGO2\eclipse\workspace\moduleTest\two\theOther.py
+sample01|1600823596902000000|C:\SK_DJANGO2\eclipse\workspace\moduleTest\sample01.py
+one.other|1600823596941000000|C:\SK_DJANGO2\eclipse\workspace\moduleTest\one\other.py
+two.__init__|1600820765664000000|C:\SK_DJANGO2\eclipse\workspace\moduleTest\two\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+4
+3=C:\SK_DJANGO2\eclipse\workspace\moduleTest\two\theOther.py
+4=two.theOther
+2=one.other
+1=C:\SK_DJANGO2\eclipse\workspace\moduleTest\one\other.py
+-- END DICTIONARY
+-- START TREE 1
+2
+num|1|num!1^7#1*19@
+siz|1|size!3^7#1*35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

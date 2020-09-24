@@ -1,0 +1,15 @@
+MODULES_MANAGER_V3
+django07_request.__init__|C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\__init__.py
+django07_request.asgi|C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\asgi.py
+django07_request.settings|C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\settings.py
+django07_request.urls|C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\urls.py
+django07_request.wsgi|C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\wsgi.py
+manage|C:\SK_DJANGO2\eclipse\workspace\django_template\manage.py
+myapp.__init__|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\__init__.py
+myapp.admin|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\admin.py
+myapp.apps|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\apps.py
+myapp.migrations.__init__|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\migrations\__init__.py
+myapp.models|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\models.py
+myapp.tests|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\tests.py
+myapp.urls|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\urls.py
+myapp.views|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\views.py

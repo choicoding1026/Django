@@ -1,0 +1,95 @@
+* Django 프레임워크 환경설정
+1. python 설치
+   http://www.python.org
+   설치경로:  c:\python38
+
+2. eclipse 다운
+   http://www.eclipse.org
+
+3. eclipse에서 pydev 추가
+   help> Eclipse Marketplace > pydev 검색어 입력후 설치
+
+4. cmd에서 파이썬 설치 목록 보기
+  pip list
+
+5. Django 홈페이지 
+   https://www.djangoproject.com/
+
+   cmd에서 Django 설치
+   pip install Django
+  
+   Django 3.X 버전은  oracle 11g 사용불가한다.
+   따라서 oracle 12c 버전을 사용해야 된다.
+
+6. eclipse에서 python.exe(인터프리터를 지정)
+   
+   window>preferences> pydev > interpreters >
+     python interpreter 선택후
+     c:\python38\python.exe 지정한다.
+
+###################################################
+7. 프로젝트 생성
+  open perspective 에서 pydev 선택하고 
+  file > new > other > pydev > pyDev Django Project 선택해서 
+  프로젝트를 생성한다.
+
+   cmd에서 프로젝트 생성 방법
+   ( documentation > tutorials > part1 문서 참조)
+   $django-admin startproject mysite
+
+* Django  프레임워크(framework)
+ - 프레임워크의 공통적인 특징은 규격화되어 있다.
+   어떤 개발자도 와도 동일한 코드를 작성하게 된다.
+ - 자동화된 서비스 제공 ( DB연동, 관리자 페이지 ...)
+   이전에는 개발자가 모두 구축했는데..ㅠㅠ
+
+8. 어플리케이션 생성
+  ==> 하나의 프로젝트에 여러 어플리케이션 생성 가능
+   예> 하나의 11번지 쇼핑몰에 여러 기능(회원관리,상품관리) 생성 가능
+
+     
+
+
+     cmd에서 app 생성방법
+     $ python manage.py startapp polls
+
+9. 서버 실행 ( 내장된 서버 이용 )
+   
+   프로젝트 선택하고 오른쪽 클릭후
+   run as > pydev Django 선택한다.
+
+   cmd에서 서버실행 방법
+   $ python manage.py runserver
+
+   http://127.0.0.1:8000/ 브라우저에 입력
+
+########################################
+* 컴포넌트 ==> 웹서버에서 개발자가 작성할 수 있는 파일
+1) 정적 컴포넌트
+   - html
+
+2) 동적 컴포넌트
+   가. 자바기반: jsp/servlet
+   나. ms기반: asp, asp.net, c#
+   다. python기반: django
+  ==> 프로그램이 실행된다. 결과는 html이다.
+
+* 웹 어플리케이션 개발하기 위한 패턴
+ ==> 대표적인 MVC 패턴
+     M: Model
+     V: View
+     C: Controller
+
+#########################################
+* 작업순서
+1. 프로젝트 생성
+2. 어플리케이션 생성 예> myapp
+3. settings.py 에  myapp 등록
+4. 브라우저 통해서 url입력후 요청
+
+   http://localhost:8000/delete
+   http://localhost:8000/update
+
+   프로젝트의 urls.py에서 
+   요청한 url분석해서 실제 처리하는 로직에
+   전달하는 역할( 요청과로직을 맵핑역할)

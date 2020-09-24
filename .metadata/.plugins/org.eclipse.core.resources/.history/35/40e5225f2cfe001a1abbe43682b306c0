@@ -1,0 +1,22 @@
+from django.shortcuts import render
+
+# Create your views here.
+def memberForm(request):
+    
+    return render(request, "memberForm.html")
+    
+
+def memberInfo(request):
+    member = {}
+
+    memberName = request.GET.get("memberName", "default") # key 값이 다른 경우 default 값 출력
+    memberIdn = request.GET.get("memberIdn")
+    gender = "남자" if memberIdn[7:8] == "1" else "여자"
+    hobby = request.GET.getlist('hobby')
+    marry = request.GET.get('marry')
+
+    member['memberName'] = memberName
+    member['gender'] = gender
+    member['hobby'] = " ".join(hobby)
+    member['marry'] = marry
+    return render(request, "memberInfo.html", member)

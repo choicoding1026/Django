@@ -1,0 +1,70 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\SK_DJANGO2\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\django04_bind\com.python.pydev.analysis\v2_indexcache
+django04_bind.asgi|1600834734000000000|C:\SK_DJANGO2\eclipse\workspace\django04_bind\django04_bind\asgi.py
+django04_bind.wsgi|1600834734000000000|C:\SK_DJANGO2\eclipse\workspace\django04_bind\django04_bind\wsgi.py
+django04_bind.settings|1600834760000000000|C:\SK_DJANGO2\eclipse\workspace\django04_bind\django04_bind\settings.py
+myapp.views|1600848525000000000|C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\views.py
+myapp.migrations.__init__|1600834749000000000|C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\migrations\__init__.py
+myapp.models|1600834749000000000|C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\models.py
+manage|1600834734000000000|C:\SK_DJANGO2\eclipse\workspace\django04_bind\manage.py
+myapp.admin|1600834749000000000|C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\admin.py
+myapp.apps|1600834749000000000|C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\apps.py
+myapp.urls|1600843750000000000|C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\urls.py
+django04_bind.urls|1600834867000000000|C:\SK_DJANGO2\eclipse\workspace\django04_bind\django04_bind\urls.py
+myapp.tests|1600834749000000000|C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\tests.py
+myapp.__init__|1600834749000000000|C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\__init__.py
+django04_bind.__init__|1600834734000000000|C:\SK_DJANGO2\eclipse\workspace\django04_bind\django04_bind\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+19
+4=django04_bind.asgi
+5=C:\SK_DJANGO2\eclipse\workspace\django04_bind\django04_bind\wsgi.py
+6=django04_bind.wsgi
+2=django04_bind.settings
+7=C:\SK_DJANGO2\eclipse\workspace\django04_bind\manage.py
+17=User
+12=myapp.views
+13=C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\urls.py
+18=User.__init__
+19=MyappConfig
+3=C:\SK_DJANGO2\eclipse\workspace\django04_bind\django04_bind\asgi.py
+8=manage
+15=C:\SK_DJANGO2\eclipse\workspace\django04_bind\django04_bind\urls.py
+10=myapp.apps
+14=myapp.urls
+16=django04_bind.urls
+1=C:\SK_DJANGO2\eclipse\workspace\django04_bind\django04_bind\settings.py
+9=C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\apps.py
+11=C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\views.py
+-- END DICTIONARY
+-- START TREE 1
+19
+all|1|ALLOWED_HOSTS!1^28#1*19@
+app|2|application!3^16#1*35@application!5^16#1*51@
+aut|1|AUTH_PASSWORD_VALIDATORS!1^101#1*19@
+bas|1|BASE_DIR!1^16#1*19@
+dat|1|DATABASES!1^82#1*19@
+deb|1|DEBUG!1^26#1*19@
+ins|1|INSTALLED_APPS!1^41#1*19@
+lan|1|LANGUAGE_CODE!1^107#1*19@
+mai|1|main!7^7#5*66@
+mid|1|MIDDLEWARE!1^51#1*19@
+mya|1|MyappConfig!9^4#7*81@
+roo|1|ROOT_URLCONF!1^53#1*19@
+sec|1|SECRET_KEY!1^23#1*19@
+sta|1|STATIC_URL!1^121#1*19@
+tem|9|template_b!11^32#5*98@template_f!11^67#5*98@template_d!11^45#5*98@template_a2!11^6#5*98@template_c!11^39#5*98@TEMPLATES!1^69#1*19@template_a!11^12#5*98@template_g!11^79#5*98@template_e!11^52#5*98@
+tim|1|TIME_ZONE!1^109#1*19@
+url|2|urlpatterns!13^14#1*115@urlpatterns!15^23#1*131@
+use|4|USE_L10N!1^113#1*19@USE_TZ!1^115#1*19@USE_I18N!1^111#1*19@User!11^23#7*97@
+wsg|1|WSGI_APPLICATION!1^71#1*19@
+-- END TREE
+-- START TREE 2
+5
+__i|1|__init__!17&11^25#9*98@
+_st|1|_str__!17&11^29#9*98@
+age|1|age!18&11^27#9*99@
+nam|1|name!19&9^5#5*83@
+use|1|username!18&11^26#9*99@
+-- END TREE

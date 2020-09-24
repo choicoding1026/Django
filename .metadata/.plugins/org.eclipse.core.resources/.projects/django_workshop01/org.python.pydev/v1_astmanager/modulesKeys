@@ -1,0 +1,15 @@
+MODULES_MANAGER_V3
+django_workshop01.__init__|C:\SK_DJANGO2\eclipse\workspace\django_workshop01\django_workshop01\__init__.py
+django_workshop01.asgi|C:\SK_DJANGO2\eclipse\workspace\django_workshop01\django_workshop01\asgi.py
+django_workshop01.settings|C:\SK_DJANGO2\eclipse\workspace\django_workshop01\django_workshop01\settings.py
+django_workshop01.urls|C:\SK_DJANGO2\eclipse\workspace\django_workshop01\django_workshop01\urls.py
+django_workshop01.wsgi|C:\SK_DJANGO2\eclipse\workspace\django_workshop01\django_workshop01\wsgi.py
+manage|C:\SK_DJANGO2\eclipse\workspace\django_workshop01\manage.py
+myapp.__init__|C:\SK_DJANGO2\eclipse\workspace\django_workshop01\myapp\__init__.py
+myapp.admin|C:\SK_DJANGO2\eclipse\workspace\django_workshop01\myapp\admin.py
+myapp.apps|C:\SK_DJANGO2\eclipse\workspace\django_workshop01\myapp\apps.py
+myapp.migrations.__init__|C:\SK_DJANGO2\eclipse\workspace\django_workshop01\myapp\migrations\__init__.py
+myapp.models|C:\SK_DJANGO2\eclipse\workspace\django_workshop01\myapp\models.py
+myapp.tests|C:\SK_DJANGO2\eclipse\workspace\django_workshop01\myapp\tests.py
+myapp.urls|C:\SK_DJANGO2\eclipse\workspace\django_workshop01\myapp\urls.py
+myapp.views|C:\SK_DJANGO2\eclipse\workspace\django_workshop01\myapp\views.py

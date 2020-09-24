@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>template_c.html</h1>
+값:{{name_list}}<br>
+길이:{{name_list|length}}<br>
+<h2>1. 반복문 기본문법</h2>
+<ul>
+{% for username in name_list %}
+    <li>{{ username }}</li>
+{% endfor %}
+</ul>
+<h2>2. 반복문 기본문법 - 역순</h2>
+<ul>
+{% for username in name_list reversed %}
+    <li>{{ username }}</li>
+{% endfor %}
+</ul>
+<h2>3. 반복문 - variable</h2>
+<ul>
+{% for username in name_list %}
+    <li>forloop.counter:{{forloop.counter}}</li>
+    <li>forloop.counter0:{{forloop.counter0}}</li>
+    <li>forloop.revcounter:{{forloop.revcounter}}</li>
+    <li>forloop.revcounter0:{{forloop.revcounter0}}</li>
+    <li>forloop.first:{{forloop.first}}</li>
+    <li>forloop.last:{{forloop.last}}</li>
+{% endfor %}
+</ul>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\SK_DJANGO2\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\django05_static\com.python.pydev.analysis\v2_indexcache
+django05_static.settings|1600907440424000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\settings.py
+myapp.views|1600907546650000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\views.py
+django05_static.wsgi|1600907399575000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\wsgi.py
+myapp.migrations.__init__|1600907419174000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\migrations\__init__.py
+myapp.models|1600907419156000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\models.py
+manage|1600907399534000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\manage.py
+django05_static.urls|1600907854311000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\urls.py
+myapp.admin|1600907419143000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\admin.py
+myapp.apps|1600907419150000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\apps.py
+django05_static.asgi|1600907399542000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\asgi.py
+myapp.urls|1600907589927000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\urls.py
+myapp.tests|1600907419166000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\tests.py
+myapp.__init__|1600907419172000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\__init__.py
+django05_static.__init__|1600907399575000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+17
+4=django05_static.settings
+2=myapp.views
+17=MyappConfig
+6=django05_static.wsgi
+1=C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\views.py
+5=C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\wsgi.py
+7=C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\asgi.py
+11=C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\apps.py
+13=C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\urls.py
+10=manage
+14=django05_static.urls
+12=myapp.apps
+15=C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\urls.py
+3=C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\settings.py
+9=C:\SK_DJANGO2\eclipse\workspace\django05_static\manage.py
+8=django05_static.asgi
+16=myapp.urls
+-- END DICTIONARY
+-- START TREE 1
+20
+a|1|a!1^4#5*18@
+all|1|ALLOWED_HOSTS!3^28#1*35@
+app|2|application!5^16#1*51@application!7^16#1*67@
+aut|1|AUTH_PASSWORD_VALIDATORS!3^101#1*35@
+bas|1|BASE_DIR!3^16#1*35@
+dat|1|DATABASES!3^82#1*35@
+deb|1|DEBUG!3^26#1*35@
+ins|1|INSTALLED_APPS!3^41#1*35@
+lan|1|LANGUAGE_CODE!3^107#1*35@
+mai|1|main!9^7#5*82@
+mid|1|MIDDLEWARE!3^51#1*35@
+mya|1|MyappConfig!11^4#7*97@
+roo|1|ROOT_URLCONF!3^53#1*35@
+sec|1|SECRET_KEY!3^23#1*35@
+sta|1|STATIC_URL!3^121#1*35@
+tem|1|TEMPLATES!3^69#1*35@
+tim|1|TIME_ZONE!3^109#1*35@
+url|2|urlpatterns!13^23#1*115@urlpatterns!15^8#1*131@
+use|3|USE_L10N!3^113#1*35@USE_TZ!3^115#1*35@USE_I18N!3^111#1*35@
+wsg|1|WSGI_APPLICATION!3^71#1*35@
+-- END TREE
+-- START TREE 2
+1
+nam|1|name!17&11^5#5*99@
+-- END TREE

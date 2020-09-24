@@ -1,0 +1,10 @@
+from django.shortcuts import render
+
+# Create your views here.
+def loginForm(request):
+    
+    return render(request, "loginForm.html")
+
+def login(request):
+    
+    return render(request, "loginForm.html")

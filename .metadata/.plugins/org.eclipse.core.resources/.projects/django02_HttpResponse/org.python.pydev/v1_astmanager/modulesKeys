@@ -1,0 +1,15 @@
+MODULES_MANAGER_V3
+django02_HttpResponse.__init__|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\django02_HttpResponse\__init__.py
+django02_HttpResponse.asgi|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\django02_HttpResponse\asgi.py
+django02_HttpResponse.settings|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\django02_HttpResponse\settings.py
+django02_HttpResponse.urls|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\django02_HttpResponse\urls.py
+django02_HttpResponse.wsgi|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\django02_HttpResponse\wsgi.py
+manage|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\manage.py
+myapp.__init__|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\__init__.py
+myapp.admin|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\admin.py
+myapp.apps|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\apps.py
+myapp.migrations.__init__|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\migrations\__init__.py
+myapp.models|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\models.py
+myapp.tests|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\tests.py
+myapp.urls|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\urls.py
+myapp.views|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\views.py

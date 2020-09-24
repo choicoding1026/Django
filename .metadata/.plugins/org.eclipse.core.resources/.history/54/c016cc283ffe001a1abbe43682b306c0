@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>사원 자세히 보기</h1>
+이메일:{{p.email}}
+이름:{{p.username}}
+나이:
+주소:
+</body>
+</html>

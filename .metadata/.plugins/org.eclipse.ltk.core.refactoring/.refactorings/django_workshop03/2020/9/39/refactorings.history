@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;django_workshop03/myapp/templates/loginForm.html&apos; to &apos;ticket.html&apos;" description="Rename resource &apos;loginForm.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="myapp/templates/loginForm.html" name="ticket.html" stamp="1600927953655" updateReferences="true"/>
+</session>

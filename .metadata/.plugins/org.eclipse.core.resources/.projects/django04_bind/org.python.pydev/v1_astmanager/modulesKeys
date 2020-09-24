@@ -1,0 +1,15 @@
+MODULES_MANAGER_V3
+django04_bind.__init__|C:\SK_DJANGO2\eclipse\workspace\django04_bind\django04_bind\__init__.py
+django04_bind.asgi|C:\SK_DJANGO2\eclipse\workspace\django04_bind\django04_bind\asgi.py
+django04_bind.settings|C:\SK_DJANGO2\eclipse\workspace\django04_bind\django04_bind\settings.py
+django04_bind.urls|C:\SK_DJANGO2\eclipse\workspace\django04_bind\django04_bind\urls.py
+django04_bind.wsgi|C:\SK_DJANGO2\eclipse\workspace\django04_bind\django04_bind\wsgi.py
+manage|C:\SK_DJANGO2\eclipse\workspace\django04_bind\manage.py
+myapp.__init__|C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\__init__.py
+myapp.admin|C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\admin.py
+myapp.apps|C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\apps.py
+myapp.migrations.__init__|C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\migrations\__init__.py
+myapp.models|C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\models.py
+myapp.tests|C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\tests.py
+myapp.urls|C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\urls.py
+myapp.views|C:\SK_DJANGO2\eclipse\workspace\django04_bind\myapp\views.py

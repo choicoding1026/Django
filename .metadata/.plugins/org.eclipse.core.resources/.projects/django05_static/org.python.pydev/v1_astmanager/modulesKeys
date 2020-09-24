@@ -1,0 +1,15 @@
+MODULES_MANAGER_V3
+django05_static.__init__|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\__init__.py
+django05_static.asgi|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\asgi.py
+django05_static.settings|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\settings.py
+django05_static.urls|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\urls.py
+django05_static.wsgi|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\wsgi.py
+manage|C:\SK_DJANGO2\eclipse\workspace\django05_static\manage.py
+myapp.__init__|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\__init__.py
+myapp.admin|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\admin.py
+myapp.apps|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\apps.py
+myapp.migrations.__init__|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\migrations\__init__.py
+myapp.models|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\models.py
+myapp.tests|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\tests.py
+myapp.urls|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\urls.py
+myapp.views|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\views.py

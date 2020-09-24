@@ -1,0 +1,67 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\SK_DJANGO2\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\django02_HttpResponse\com.python.pydev.analysis\v2_indexcache
+django02_HttpResponse.asgi|1600823505000000000|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\django02_HttpResponse\asgi.py
+django02_HttpResponse.settings|1600823612000000000|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\django02_HttpResponse\settings.py
+django02_HttpResponse.wsgi|1600823505000000000|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\django02_HttpResponse\wsgi.py
+django02_HttpResponse.__init__|1600823505000000000|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\django02_HttpResponse\__init__.py
+myapp.views|1600825859000000000|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\views.py
+django02_HttpResponse.urls|1600824292000000000|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\django02_HttpResponse\urls.py
+myapp.migrations.__init__|1600823582000000000|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\migrations\__init__.py
+myapp.models|1600823582000000000|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\models.py
+manage|1600823505000000000|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\manage.py
+myapp.admin|1600823582000000000|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\admin.py
+myapp.apps|1600823582000000000|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\apps.py
+myapp.urls|1600825825000000000|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\urls.py
+myapp.tests|1600823582000000000|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\tests.py
+myapp.__init__|1600823582000000000|C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\__init__.py
+-- END DISKCACHE
+-- START DICTIONARY
+17
+2=django02_HttpResponse.settings
+4=django02_HttpResponse.asgi
+6=django02_HttpResponse.wsgi
+9=C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\manage.py
+8=myapp.views
+15=C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\django02_HttpResponse\urls.py
+13=C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\urls.py
+16=django02_HttpResponse.urls
+17=MyappConfig
+5=C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\django02_HttpResponse\wsgi.py
+3=C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\django02_HttpResponse\asgi.py
+10=manage
+7=C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\views.py
+12=myapp.apps
+14=myapp.urls
+11=C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\myapp\apps.py
+1=C:\SK_DJANGO2\eclipse\workspace\django02_HttpResponse\django02_HttpResponse\settings.py
+-- END DICTIONARY
+-- START TREE 1
+22
+all|1|ALLOWED_HOSTS!1^28#1*19@
+app|2|application!3^16#1*35@application!5^16#1*51@
+aut|1|AUTH_PASSWORD_VALIDATORS!1^101#1*19@
+bas|1|BASE_DIR!1^16#1*19@
+dat|1|DATABASES!1^82#1*19@
+deb|1|DEBUG!1^26#1*19@
+del|1|delBoard!7^15#5*66@
+ins|1|INSTALLED_APPS!1^41#1*19@
+lan|1|LANGUAGE_CODE!1^107#1*19@
+mai|1|main!9^7#5*82@
+mid|1|MIDDLEWARE!1^51#1*19@
+mya|1|MyappConfig!11^4#7*97@
+roo|1|ROOT_URLCONF!1^53#1*19@
+sec|1|SECRET_KEY!1^23#1*19@
+sel|1|selectBoard!7^24#5*66@
+sta|1|STATIC_URL!1^121#1*19@
+tem|1|TEMPLATES!1^69#1*19@
+tim|1|TIME_ZONE!1^109#1*19@
+upd|1|updateBoard!7^21#5*66@
+url|2|urlpatterns!13^16#1*115@urlpatterns!15^33#1*131@
+use|3|USE_L10N!1^113#1*19@USE_I18N!1^111#1*19@USE_TZ!1^115#1*19@
+wsg|1|WSGI_APPLICATION!1^71#1*19@
+-- END TREE
+-- START TREE 2
+1
+nam|1|name!17&11^5#5*99@
+-- END TREE

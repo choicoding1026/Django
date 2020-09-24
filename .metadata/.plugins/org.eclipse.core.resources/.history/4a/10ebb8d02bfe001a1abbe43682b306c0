@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>member info</h1>
+이름은 {{memberName}}<br>
+성별은 {{}}<br>
+취미는 {{}}<br>
+결혼 상태는 {{}}입니다
+</body>
+</html>

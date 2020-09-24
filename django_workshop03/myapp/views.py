@@ -1,0 +1,34 @@
+from django.shortcuts import render
+from datetime import datetime
+
+# Create your views here.
+def ticket(request):
+    
+    return render(request, "ticket.html")
+
+def ticketInfo(request):
+    
+    birthday = request.POST.get("birthday")
+    price = int(request.POST.get("type"))
+    currentDate = datetime.now().year
+    age = currentDate - int(birthday[:4])
+    grade = ""
+    discount = 0
+    if age < 19 :
+        discount =  price*0.4
+        grade = "미성년자"
+    elif age < 60 :
+        discount = price*0.1
+        grade = "성인"
+    else :
+        discount = price*0.6
+        grade = "경로우대"
+    
+    ticketPrice = {}
+    ticketPrice['birthday'] = birthday
+    ticketPrice['price'] = price
+    ticketPrice['discount'] = discount
+    ticketPrice['age'] = age
+    ticketPrice['grade'] = grade
+    
+    return render(request, "ticketInfo.html", ticketPrice)

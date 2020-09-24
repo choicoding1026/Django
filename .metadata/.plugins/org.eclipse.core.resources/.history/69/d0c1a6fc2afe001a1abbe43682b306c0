@@ -1,0 +1,11 @@
+from django.shortcuts import render
+
+# Create your views here.
+def memberForm(request):
+    memberName = request.GET.get("memberName", "default") # key 값이 다른 경우 default 값 출력
+    memberIdn = request.GET.get("memberIdn")
+
+    member = {}
+    member['memberName'] = memberName
+    member['memberIdn'] = memberIdn
+    return render(request, "memberInfo.html", member)

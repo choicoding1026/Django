@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>template_e.html</h1>
+<h2>dict_value</h2>
+{% for key in dict_value.keys %}
+   {{key}}
+{% endfor %}
+<br>
+{% for value in dict_value.values %}
+   {{value}}
+{% endfor %}
+<br>
+{% for key, value in dict_value.items %}
+   {{key}}:{{value}}
+{% endfor %}
+
+<h2>dict_list</h2>
+{% for prod in dict_list %}
+   {% for key, value in prod.items %}
+    {{key}}:{{value}}
+   {% endfor %}
+{% endfor %}
+
+
+
+
+
+
+</body>
+</html>

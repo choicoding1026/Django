@@ -1,0 +1,4 @@
+<!--  template_inheritance.html -->
+{% extends "base/base_template.html" %}
+
+{% block title %} My amazing blog {% endblock %}
