@@ -1,40 +1,40 @@
 -- VERSION_5
 -- START DISKCACHE_3
 C:\SK_DJANGO2\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\django_workshop02\com.python.pydev.analysis\v2_indexcache
-myapp.views|1600914334172000000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\myapp\views.py
-django_template.urls|1600914608755000000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\django_template\urls.py
+django_workshop02.settings|1600925574411696000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\django_workshop02\settings.py
+myapp.views|1600927723186073000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\myapp\views.py
+django_workshop02.wsgi|1600925574421476000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\django_workshop02\wsgi.py
 myapp.migrations.__init__|1600914172854000000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\myapp\migrations\__init__.py
-django_template.__init__|1600914161890000000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\django_template\__init__.py
 myapp.models|1600914172851000000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\myapp\models.py
-manage|1600914608741000000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\manage.py
+manage|1600925574431073000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\manage.py
+django_workshop02.urls|1600925574441116000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\django_workshop02\urls.py
 myapp.admin|1600914172848000000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\myapp\admin.py
-django_template.wsgi|1600914608726000000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\django_template\wsgi.py
 myapp.apps|1600914172850000000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\myapp\apps.py
-django_template.asgi|1600914608778000000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\django_template\asgi.py
-django_template.settings|1600914608767000000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\django_template\settings.py
-myapp.urls|1600914608792000000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\myapp\urls.py
+django_workshop02.asgi|1600925574455211000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\django_workshop02\asgi.py
+myapp.urls|1600927676984657000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\myapp\urls.py
 myapp.tests|1600914172852000000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\myapp\tests.py
 myapp.__init__|1600914172853000000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\myapp\__init__.py
+django_workshop02.__init__|1600914161890000000|C:\SK_DJANGO2\eclipse\workspace\django_workshop02\django_workshop02\__init__.py
 -- END DISKCACHE
 -- START DICTIONARY
 17
-5=C:\SK_DJANGO2\eclipse\workspace\django_workshop02\django_template\wsgi.py
 11=C:\SK_DJANGO2\eclipse\workspace\django_workshop02\myapp\apps.py
 13=C:\SK_DJANGO2\eclipse\workspace\django_workshop02\myapp\urls.py
-8=myapp.views
+2=django_workshop02.settings
+5=C:\SK_DJANGO2\eclipse\workspace\django_workshop02\django_workshop02\wsgi.py
+10=myapp.views
 17=MyappConfig
-16=django_template.urls
-1=C:\SK_DJANGO2\eclipse\workspace\django_workshop02\django_template\settings.py
-3=C:\SK_DJANGO2\eclipse\workspace\django_workshop02\django_template\asgi.py
-10=manage
-15=C:\SK_DJANGO2\eclipse\workspace\django_workshop02\django_template\urls.py
-6=django_template.wsgi
+6=django_workshop02.wsgi
+1=C:\SK_DJANGO2\eclipse\workspace\django_workshop02\django_workshop02\settings.py
+8=manage
+16=django_workshop02.urls
+3=C:\SK_DJANGO2\eclipse\workspace\django_workshop02\django_workshop02\asgi.py
 12=myapp.apps
-2=django_template.settings
-4=django_template.asgi
-9=C:\SK_DJANGO2\eclipse\workspace\django_workshop02\manage.py
+15=C:\SK_DJANGO2\eclipse\workspace\django_workshop02\django_workshop02\urls.py
+7=C:\SK_DJANGO2\eclipse\workspace\django_workshop02\manage.py
+4=django_workshop02.asgi
 14=myapp.urls
-7=C:\SK_DJANGO2\eclipse\workspace\django_workshop02\myapp\views.py
+9=C:\SK_DJANGO2\eclipse\workspace\django_workshop02\myapp\views.py
 -- END DICTIONARY
 -- START TREE 1
 20
@@ -46,8 +46,8 @@ dat|1|DATABASES!1^82#1*19@
 deb|1|DEBUG!1^26#1*19@
 ins|1|INSTALLED_APPS!1^41#1*19@
 lan|1|LANGUAGE_CODE!1^107#1*19@
-log|1|loginForm!7^4#5*66@
-mai|1|main!9^7#5*82@
+mai|1|main!7^7#5*66@
+mem|2|memberForm!9^4#5*82@memberInfo!9^9#5*82@
 mid|1|MIDDLEWARE!1^51#1*19@
 mya|1|MyappConfig!11^4#7*97@
 roo|1|ROOT_URLCONF!1^53#1*19@
@@ -55,7 +55,7 @@ sec|1|SECRET_KEY!1^23#1*19@
 sta|1|STATIC_URL!1^121#1*19@
 tem|1|TEMPLATES!1^69#1*19@
 tim|1|TIME_ZONE!1^109#1*19@
-url|2|urlpatterns!13^22#1*115@urlpatterns!15^23#1*131@
+url|2|urlpatterns!13^23#1*115@urlpatterns!15^23#1*131@
 use|3|USE_L10N!1^113#1*19@USE_I18N!1^111#1*19@USE_TZ!1^115#1*19@
 wsg|1|WSGI_APPLICATION!1^71#1*19@
 -- END TREE

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>사원 등록</h1>
+<form action="/main/add/" method="post">
+{% csrf_token %}
+이메일:<input type="text" name="email" ><br>
+이름:<input type="text" name="username" ><br>
+나이:<input type="text" name="age" ><br>
+주소:<input type="text" name="address" ><br>
+<input type="submit" value="등록">
+</body>
+</html>

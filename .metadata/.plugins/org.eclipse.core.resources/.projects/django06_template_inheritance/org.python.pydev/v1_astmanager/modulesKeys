@@ -5,3 +5,11 @@ django06_template_inheritance.settings|C:\SK_DJANGO2\eclipse\workspace\django06_
 django06_template_inheritance.urls|C:\SK_DJANGO2\eclipse\workspace\django06_template_inheritance\django06_template_inheritance\urls.py
 django06_template_inheritance.wsgi|C:\SK_DJANGO2\eclipse\workspace\django06_template_inheritance\django06_template_inheritance\wsgi.py
 manage|C:\SK_DJANGO2\eclipse\workspace\django06_template_inheritance\manage.py
+myapp.__init__|C:\SK_DJANGO2\eclipse\workspace\django06_template_inheritance\myapp\__init__.py
+myapp.admin|C:\SK_DJANGO2\eclipse\workspace\django06_template_inheritance\myapp\admin.py
+myapp.apps|C:\SK_DJANGO2\eclipse\workspace\django06_template_inheritance\myapp\apps.py
+myapp.migrations.__init__|C:\SK_DJANGO2\eclipse\workspace\django06_template_inheritance\myapp\migrations\__init__.py
+myapp.models|C:\SK_DJANGO2\eclipse\workspace\django06_template_inheritance\myapp\models.py
+myapp.tests|C:\SK_DJANGO2\eclipse\workspace\django06_template_inheritance\myapp\tests.py
+myapp.urls|C:\SK_DJANGO2\eclipse\workspace\django06_template_inheritance\myapp\urls.py
+myapp.views|C:\SK_DJANGO2\eclipse\workspace\django06_template_inheritance\myapp\views.py

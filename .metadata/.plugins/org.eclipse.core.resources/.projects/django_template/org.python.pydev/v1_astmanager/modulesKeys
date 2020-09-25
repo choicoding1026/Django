@@ -1,9 +1,9 @@
 MODULES_MANAGER_V3
-django07_request.__init__|C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\__init__.py
-django07_request.asgi|C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\asgi.py
-django07_request.settings|C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\settings.py
-django07_request.urls|C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\urls.py
-django07_request.wsgi|C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\wsgi.py
+django_template.__init__|C:\SK_DJANGO2\eclipse\workspace\django_template\django_template\__init__.py
+django_template.asgi|C:\SK_DJANGO2\eclipse\workspace\django_template\django_template\asgi.py
+django_template.settings|C:\SK_DJANGO2\eclipse\workspace\django_template\django_template\settings.py
+django_template.urls|C:\SK_DJANGO2\eclipse\workspace\django_template\django_template\urls.py
+django_template.wsgi|C:\SK_DJANGO2\eclipse\workspace\django_template\django_template\wsgi.py
 manage|C:\SK_DJANGO2\eclipse\workspace\django_template\manage.py
 myapp.__init__|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\__init__.py
 myapp.admin|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\admin.py

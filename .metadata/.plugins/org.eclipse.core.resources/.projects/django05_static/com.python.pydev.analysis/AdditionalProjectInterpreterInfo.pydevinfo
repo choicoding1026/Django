@@ -1,20 +1,20 @@
 -- VERSION_5
 -- START DISKCACHE_3
 C:\SK_DJANGO2\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\django05_static\com.python.pydev.analysis\v2_indexcache
-django05_static.settings|1600907440424000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\settings.py
-myapp.views|1600907546650000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\views.py
-django05_static.wsgi|1600907399575000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\wsgi.py
-myapp.migrations.__init__|1600907419174000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\migrations\__init__.py
-myapp.models|1600907419156000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\models.py
-manage|1600907399534000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\manage.py
-django05_static.urls|1600907854311000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\urls.py
-myapp.admin|1600907419143000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\admin.py
-myapp.apps|1600907419150000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\apps.py
-django05_static.asgi|1600907399542000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\asgi.py
-myapp.urls|1600907589927000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\urls.py
-myapp.tests|1600907419166000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\tests.py
-myapp.__init__|1600907419172000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\__init__.py
-django05_static.__init__|1600907399575000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\__init__.py
+django05_static.settings|1600907438000000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\settings.py
+myapp.views|1600907542000000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\views.py
+django05_static.wsgi|1600907364000000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\wsgi.py
+myapp.migrations.__init__|1600907424000000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\migrations\__init__.py
+myapp.models|1600907424000000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\models.py
+manage|1600907364000000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\manage.py
+django05_static.urls|1600907851000000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\urls.py
+myapp.admin|1600907424000000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\admin.py
+myapp.apps|1600907424000000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\apps.py
+django05_static.asgi|1600907364000000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\asgi.py
+myapp.urls|1600907499000000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\urls.py
+myapp.tests|1600907424000000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\tests.py
+myapp.__init__|1600907424000000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\myapp\__init__.py
+django05_static.__init__|1600907364000000000|C:\SK_DJANGO2\eclipse\workspace\django05_static\django05_static\__init__.py
 -- END DISKCACHE
 -- START DICTIONARY
 17

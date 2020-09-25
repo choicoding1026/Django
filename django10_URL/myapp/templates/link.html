@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>link.html</h1>
+<h3>1. 명시적으로 경로지정</h3>
+<a href="/main/memberInsert">회원등록</a><br>
+<a href="/main/memberDelete">회원삭제</a><br>
+<h3>2. 경로의 name값 이용(URL template)</h3>
+<a href="{% url 'insertData' %}">회원등록</a><br>
+<a href="{% url 'deleteData' %}">회원삭제</a><br>
+</body>
+</html>

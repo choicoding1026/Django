@@ -2,6 +2,7 @@
 -- START DISKCACHE_3
 C:\SK_DJANGO2\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\django07_request\com.python.pydev.analysis\v2_indexcache
 django07_request.__init__|1600914161890276000|C:\SK_DJANGO2\eclipse\workspace\django07_request\django07_request\__init__.py
+myapp.views|1600925829138130000|C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\views.py
 django07_request.asgi|1600914161887278000|C:\SK_DJANGO2\eclipse\workspace\django07_request\django07_request\asgi.py
 django07_request.wsgi|1600914161890276000|C:\SK_DJANGO2\eclipse\workspace\django07_request\django07_request\wsgi.py
 myapp.migrations.__init__|1600914172854069000|C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\migrations\__init__.py
@@ -10,31 +11,33 @@ manage|1600914161885280000|C:\SK_DJANGO2\eclipse\workspace\django07_request\mana
 myapp.admin|1600914172848074000|C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\admin.py
 myapp.apps|1600914172850072000|C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\apps.py
 myapp.urls|1600923230193844000|C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\urls.py
-myapp.tests|1600914172852071000|C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\tests.py
 django07_request.settings|1600914193704617000|C:\SK_DJANGO2\eclipse\workspace\django07_request\django07_request\settings.py
+myapp.tests|1600914172852071000|C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\tests.py
 myapp.__init__|1600914172853069000|C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\__init__.py
 django07_request.urls|1600914214277364000|C:\SK_DJANGO2\eclipse\workspace\django07_request\django07_request\urls.py
 -- END DISKCACHE
 -- START DICTIONARY
-15
-13=C:\SK_DJANGO2\eclipse\workspace\django07_request\django07_request\urls.py
+17
+15=C:\SK_DJANGO2\eclipse\workspace\django07_request\django07_request\urls.py
+8=myapp.views
 4=django07_request.wsgi
 6=django07_request.asgi
-15=MyappConfig
+17=MyappConfig
 1=C:\SK_DJANGO2\eclipse\workspace\django07_request\django07_request\settings.py
-7=C:\SK_DJANGO2\eclipse\workspace\django07_request\manage.py
-8=manage
-9=C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\apps.py
-10=myapp.apps
-11=C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\urls.py
-12=myapp.urls
+7=C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\views.py
+9=C:\SK_DJANGO2\eclipse\workspace\django07_request\manage.py
+10=manage
+11=C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\apps.py
+12=myapp.apps
+13=C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\urls.py
+14=myapp.urls
 2=django07_request.settings
 3=C:\SK_DJANGO2\eclipse\workspace\django07_request\django07_request\wsgi.py
-14=django07_request.urls
+16=django07_request.urls
 5=C:\SK_DJANGO2\eclipse\workspace\django07_request\django07_request\asgi.py
 -- END DICTIONARY
 -- START TREE 1
-21
+20
 all|1|ALLOWED_HOSTS!1^28#1*19@
 app|2|application!3^16#1*35@application!5^16#1*51@
 aut|1|AUTH_PASSWORD_VALIDATORS!1^101#1*19@
@@ -43,21 +46,20 @@ dat|1|DATABASES!1^82#1*19@
 deb|1|DEBUG!1^26#1*19@
 ins|1|INSTALLED_APPS!1^41#1*19@
 lan|1|LANGUAGE_CODE!1^107#1*19@
-log|0|
-mai|1|main!7^7#5*66@
+log|4|loginGET!7^9#5*66@login99!7^27#5*66@loginPOST!7^20#5*66@loginForm!7^5#5*66@
+mai|1|main!9^7#5*82@
 mid|1|MIDDLEWARE!1^51#1*19@
-mya|1|MyappConfig!9^4#7*81@
-req|0|
+mya|1|MyappConfig!11^4#7*97@
 roo|1|ROOT_URLCONF!1^53#1*19@
 sec|1|SECRET_KEY!1^23#1*19@
 sta|1|STATIC_URL!1^121#1*19@
 tem|1|TEMPLATES!1^69#1*19@
 tim|1|TIME_ZONE!1^109#1*19@
-url|2|urlpatterns!11^24#1*99@urlpatterns!13^23#1*115@
+url|2|urlpatterns!13^24#1*115@urlpatterns!15^23#1*131@
 use|3|USE_I18N!1^111#1*19@USE_TZ!1^115#1*19@USE_L10N!1^113#1*19@
 wsg|1|WSGI_APPLICATION!1^71#1*19@
 -- END TREE
 -- START TREE 2
 1
-nam|1|name!15&9^5#5*83@
+nam|1|name!17&11^5#5*99@
 -- END TREE

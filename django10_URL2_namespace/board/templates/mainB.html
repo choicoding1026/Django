@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>main</title>
+</head>
+<body>
+<h3>1. 하드코딩 형태</h3>
+<a href="/board/boardAdd">boardAdd</a>
+<a href="/board/boardDel">boardDel</a>
+<h3>2. URL template</h3>
+<a href="{% url 'board:addData' %}">boardAdd</a>
+<a href="{% url 'board:delData' %}">boardDel</a>
+</body>
+</html>

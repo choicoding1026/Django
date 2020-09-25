@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>session.html</h1>
+* 세션관리(session tracking)
+1. session: 연결됨을 의미
+2. 연결되는 형태
+ 1) 연결 유지
+ 2) 연결 유지x ==> 웹(web), http 프로토콜
+3. http 프로토콜 특징
+ - connectionLESS
+ - stateLESS
+4. Django 세션 실습
+ 1) 반드시 migrate 해야한다.
+  terminal 접속 -> python manage.py migrate
+ 2) 기본적으로 브라우저 lifecycle과 일치하지 않는다.
+  SESSION_EXPIRE_AT_BROWSER_CLOSE = True로 설정해야 일치하게 된다.
+5. Method
+ 1) 데이터 저장
+ 	request.session[key] = value
+ 2) 데이터 조회
+ 	request.session.keys()
+ 	request.session.items()
+ 	request.session.values()
+ 	request.session.get(key)
+ 3) 데이터 삭제
+ 	request.session.pop(key)
+ 	request.session.clear()
+ 	request.session.flush() # 로그아웃
+ 4) time out
+ 	request.session.set_expiry(초) # 300 --> 5분
+
+</body>
+</html>

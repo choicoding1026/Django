@@ -5,3 +5,11 @@ django07_request.settings|C:\SK_DJANGO2\eclipse\workspace\django07_request\djang
 django07_request.urls|C:\SK_DJANGO2\eclipse\workspace\django07_request\django07_request\urls.py
 django07_request.wsgi|C:\SK_DJANGO2\eclipse\workspace\django07_request\django07_request\wsgi.py
 manage|C:\SK_DJANGO2\eclipse\workspace\django07_request\manage.py
+myapp.__init__|C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\__init__.py
+myapp.admin|C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\admin.py
+myapp.apps|C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\apps.py
+myapp.migrations.__init__|C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\migrations\__init__.py
+myapp.models|C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\models.py
+myapp.tests|C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\tests.py
+myapp.urls|C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\urls.py
+myapp.views|C:\SK_DJANGO2\eclipse\workspace\django07_request\myapp\views.py

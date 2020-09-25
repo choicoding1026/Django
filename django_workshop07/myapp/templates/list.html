@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+  .x{
+    background-color: yellow
+  }
+  .y{
+    background-color: aqua;
+  }
+  .z{
+    background-color: lime;
+  }
+</style>
+<script type="text/javascript">
+
+	function memberDelete(email) {
+		location.href="/main/delete?email="+email
+	}
+	
+	function checkAll2(chk) {
+		var delAll = document.querySelectorAll(".delAll");
+		for (var x of delAll) {
+			x.checked = chk;
+		}
+	}
+	
+</script>
+</head>
+<body>
+<h1>사원정보</h1>
+<form action="/main/deleteAll" method="get">
+<table border="1">
+ <tr>
+   <td>전체삭제<input type=checkbox name="checkAll" onclick="checkAll2(this.checked)"></td>
+   <td>순서</td>
+   <td>이름</td>
+   <td>이메일</td>
+ </tr>
+ {% for p in list %}
+  <tr class="{% cycle 'x' 'y' 'z' %}">
+   <td><input type="checkbox" name="delAll" value="{{p.email}}" class="delAll">
+   <td>{{forloop.counter}}</td>
+   <td>{{p.username}}</td>
+   <td><a href="/main/detail?email={{p.email}}">{{p.email}}</a></td>
+   <td><button onclick="memberDelete('{{p.email}}')">삭제</button></td>
+  </tr>
+ {% endfor %} 
+</table>
+<a href="/main/memberForm">사원추가</a>
+<button>전체삭제</button>
+</form>
+</body>
+</html>

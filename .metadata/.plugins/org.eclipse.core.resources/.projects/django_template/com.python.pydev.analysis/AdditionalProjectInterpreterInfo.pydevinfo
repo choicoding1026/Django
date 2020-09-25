@@ -1,40 +1,40 @@
 -- VERSION_5
 -- START DISKCACHE_3
 C:\SK_DJANGO2\eclipse\workspace\.metadata\.plugins\org.eclipse.core.resources\.projects\django_template\com.python.pydev.analysis\v2_indexcache
-django07_request.__init__|1600914161890000000|C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\__init__.py
 myapp.views|1600914334172000000|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\views.py
-django07_request.asgi|1600914161887000000|C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\asgi.py
-django07_request.wsgi|1600914161890000000|C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\wsgi.py
+django_template.urls|1600914608755505000|C:\SK_DJANGO2\eclipse\workspace\django_template\django_template\urls.py
 myapp.migrations.__init__|1600914172854000000|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\migrations\__init__.py
+django_template.__init__|1600914161890000000|C:\SK_DJANGO2\eclipse\workspace\django_template\django_template\__init__.py
 myapp.models|1600914172851000000|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\models.py
-manage|1600914161885000000|C:\SK_DJANGO2\eclipse\workspace\django_template\manage.py
+manage|1600914608741510000|C:\SK_DJANGO2\eclipse\workspace\django_template\manage.py
 myapp.admin|1600914172848000000|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\admin.py
+django_template.wsgi|1600914608726521000|C:\SK_DJANGO2\eclipse\workspace\django_template\django_template\wsgi.py
 myapp.apps|1600914172850000000|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\apps.py
-myapp.urls|1600914367883000000|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\urls.py
-django07_request.settings|1600914193704000000|C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\settings.py
+django_template.asgi|1600914608778488000|C:\SK_DJANGO2\eclipse\workspace\django_template\django_template\asgi.py
+django_template.settings|1600914608767494000|C:\SK_DJANGO2\eclipse\workspace\django_template\django_template\settings.py
+myapp.urls|1600914608792675000|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\urls.py
 myapp.tests|1600914172852000000|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\tests.py
 myapp.__init__|1600914172853000000|C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\__init__.py
-django07_request.urls|1600914214277000000|C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\urls.py
 -- END DISKCACHE
 -- START DICTIONARY
 17
+5=C:\SK_DJANGO2\eclipse\workspace\django_template\django_template\wsgi.py
 8=myapp.views
-4=django07_request.wsgi
-6=django07_request.asgi
 17=MyappConfig
-5=C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\asgi.py
+16=django_template.urls
 7=C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\views.py
-3=C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\wsgi.py
-15=C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\urls.py
 10=manage
-1=C:\SK_DJANGO2\eclipse\workspace\django_template\django07_request\settings.py
 13=C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\urls.py
+6=django_template.wsgi
 9=C:\SK_DJANGO2\eclipse\workspace\django_template\manage.py
+3=C:\SK_DJANGO2\eclipse\workspace\django_template\django_template\asgi.py
 12=myapp.apps
 11=C:\SK_DJANGO2\eclipse\workspace\django_template\myapp\apps.py
+2=django_template.settings
+4=django_template.asgi
+15=C:\SK_DJANGO2\eclipse\workspace\django_template\django_template\urls.py
+1=C:\SK_DJANGO2\eclipse\workspace\django_template\django_template\settings.py
 14=myapp.urls
-2=django07_request.settings
-16=django07_request.urls
 -- END DICTIONARY
 -- START TREE 1
 20
@@ -56,7 +56,7 @@ sta|1|STATIC_URL!1^121#1*19@
 tem|1|TEMPLATES!1^69#1*19@
 tim|1|TIME_ZONE!1^109#1*19@
 url|2|urlpatterns!13^22#1*115@urlpatterns!15^23#1*131@
-use|3|USE_I18N!1^111#1*19@USE_TZ!1^115#1*19@USE_L10N!1^113#1*19@
+use|3|USE_L10N!1^113#1*19@USE_I18N!1^111#1*19@USE_TZ!1^115#1*19@
 wsg|1|WSGI_APPLICATION!1^71#1*19@
 -- END TREE
 -- START TREE 2

@@ -1,0 +1,1 @@
+alert("static 파일 실습");

@@ -1,9 +1,9 @@
 MODULES_MANAGER_V3
-django_template.__init__|C:\SK_DJANGO2\eclipse\workspace\django_workshop03\django_template\__init__.py
-django_template.asgi|C:\SK_DJANGO2\eclipse\workspace\django_workshop03\django_template\asgi.py
-django_template.settings|C:\SK_DJANGO2\eclipse\workspace\django_workshop03\django_template\settings.py
-django_template.urls|C:\SK_DJANGO2\eclipse\workspace\django_workshop03\django_template\urls.py
-django_template.wsgi|C:\SK_DJANGO2\eclipse\workspace\django_workshop03\django_template\wsgi.py
+django_workshop03.__init__|C:\SK_DJANGO2\eclipse\workspace\django_workshop03\django_workshop03\__init__.py
+django_workshop03.asgi|C:\SK_DJANGO2\eclipse\workspace\django_workshop03\django_workshop03\asgi.py
+django_workshop03.settings|C:\SK_DJANGO2\eclipse\workspace\django_workshop03\django_workshop03\settings.py
+django_workshop03.urls|C:\SK_DJANGO2\eclipse\workspace\django_workshop03\django_workshop03\urls.py
+django_workshop03.wsgi|C:\SK_DJANGO2\eclipse\workspace\django_workshop03\django_workshop03\wsgi.py
 manage|C:\SK_DJANGO2\eclipse\workspace\django_workshop03\manage.py
 myapp.__init__|C:\SK_DJANGO2\eclipse\workspace\django_workshop03\myapp\__init__.py
 myapp.admin|C:\SK_DJANGO2\eclipse\workspace\django_workshop03\myapp\admin.py
