@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+	function del(code) {
+		event.preventDefault(); // 자동 submit 방지
+		location.href="/main/delete?code="+code
+	}
+	
+	function update(){
+		// submit 형태로
+		var f = document.querySelector("#edit")
+		f.action="/main/update/"
+		// /?code=b01
+		// &csrfmiddlewaretoken=
+		// WQJrBhWXd4uu80ZITPCCIGX4cCFe7i2NJZAMk5TPbauCcnRco7WOCOo6w9wKVBL5
+		// &name=휴대폰
+		// &price=1000000
+	}
+</script>
+</head>
+<body>
+<h3>product detail</h3>
+<form method="post" id="edit">
+<input type="hidden" name="code" value="{{product.code}}">
+{% csrf_token %}
+code:{{product.code}}&nbsp;
+date:{{product.pub_date|date:"Y/m/d"}}<br>
+name:<input type="text" name="name" value="{{product.name}}"><br>
+price:<input type="text" name="price" value="{{product.price}}"><br>
+<button onclick="update()">edit</button>
+<button onclick="del('{{product.code}}')">delete</button>
+</form>
+<a href="{% url 'list' %}">list</a>
+</body>
+</html>

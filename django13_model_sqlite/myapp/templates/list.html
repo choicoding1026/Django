@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>list</h1>
+<table border="1">
+	<tr>
+		<td>no</td>
+		<td>code</td>
+		<td>name</td>
+	</tr>
+{% for p in productlist %}
+	<tr>
+		<td>{{forloop.counter}}</td>
+		<td><a href="/main/detail/{{p.code}}">{{p.code}}</a></td>
+		<td>{{p.name}}</td>
+	</tr>
+{% endfor %}	
+</table>
+<a href="{% url 'writeForm_product' %}">add</a>
+</body>
+</html>

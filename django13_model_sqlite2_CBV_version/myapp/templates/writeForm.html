@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>writeForm</h1>
+<form action="{% url 'write_xxx' %}" method="post">
+{%csrf_token %}
+code:<input type="text" name="code"><br>
+name:<input type="text" name="name"><br>
+price:<input type="text" name="price"><br>
+<input type="submit" value="add">
+</form>
+</body>
+</html>

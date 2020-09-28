@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>cookie.html</h1>
+* 세션관리(session tracking)
+1. session: 연결됨을 의미
+2. 연결되는 형태
+ 1) 연결 유지
+ 2) 연결 유지x ==> 웹(web), http 프로토콜
+3. http 프로토콜 특징
+ - connectionLESS
+ - stateLESS
+4. Django 쿠키 특징
+ 1) 클라이언트에 데이터 저장
+ 2) 저장되는 데이터는 문자열만 가능, 저장 횟수 제한
+ 3) 클라이언트에서 쿠키 사용 제한가능
+5. Method
+ 1) 데이터 저장
+ 	response.set_cookie(key, value, expire)
+ 2) 데이터 조회
+ 	request.COOKIES.get(key)
+ 3) 데이터 삭제
+ 	response.delete_cookie(key)
+</body>
+</html>

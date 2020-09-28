@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>model</h1>
+
+1. MTV
+ 1) Model: 데이터 처리  담당 모듈(models.py)
+ 2) Template: 화면처리 담당 모듈(templates 폴더 html 파일)
+ 3) View: Model+Template 관리하는 모듈(views.py)
+ 
+2. Model
+ 1) 데이터베이스 연동 모듈
+ 2) 어떤 데이터베이스 사용할 지 설정(settings.py)
+ 	=> default: sqlite(경량의 데이터베이스, 스마트 폰에 내장 되어있음)
+ 3)
+  DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+     }
+  }
+ 4) Django의 DB연동방식은 ORM(Object(.py) Relation(DB) Mapping)
+ 	=> 파이썬 객체를 통해서 자동으로 SQL문을 생성시켜 DB와 연동
+ 	
+3. Django의 Model 처리 순서
+ 1) models.py에 클래스 생성, 반드시 models.Model 상속 받는다.
+ 	class Product(models.Model):
+    	code = models.CharField(max_length=64, primary_key=True)
+    	name = models.CharField(max_length=64)
+    	price = models.IntegerField()
+  		pub_date = models.DateTimeField(auto_now_add=True)
+ 	=> 자동으로 Product 테이블 생성 
+ 	=> auto_now_add=True는 자동으로 defualt값으로 추가됨
+ 	=> primary_key=True는 기본키로 컬럼을 설정
+ 	만약 지정되지 않으면 자동으로 새로운 컬럼이 생성되어 pk가 된다.
+ 2) run as 실행하면 db.sqlite
+ 3) migration 작업
+  (1) C:\SK_DJANGO2\eclipse\workspace\django13_model_sqlite 터미널 실행
+  (2) python manage.py makemigrations => migrate 준비 작업
+  (3) python manage.py migrate => 실제 db에 반역
+ 4) 생성된 sqlite3 테이블 확인 - 외부 툴 이용
+ 5) 관리자 사이트 이용해서 테이블 관리
+  (1) 관리자 계정 생성
+  	python manage.py createsuperuser
+  (2) 관리자 사이트에서 테이블 보여주기(admin.py)
+  	admin.site.register(Product)
+  (3) 관리자 사이트에서 데이터를 테이블 형식으로 보여주기(admin.py)
+  	class ProductTest(admin.ModelAdmin):
+    list_display = ("code", "name", "price", "pub_date")
+    
+	admin.site.register(Product, ProductTest)
+ 6) views.py에서 CRUD(CREATE, READ, UPDATE, DELETE) 처리
+  	=> SQL문이 아닌 함수 형태
+</body>
+</html>
